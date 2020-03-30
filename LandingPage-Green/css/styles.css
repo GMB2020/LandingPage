@@ -5,11 +5,11 @@
 }
 
 body {
-    /*background-image: url('../images/bg-desktop.svg');*/
+    background-image: url('../images/header-leaf.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #182C27;
-    color: #fff;
+    background-color: #fff;
+    color: #333333;
     display: flex;
     font-family: 'Open sans', sans-serif;
     font-size: 14px;
@@ -20,6 +20,7 @@ body {
 
 h1 {
     font-size: 32px;
+    color: #5A8C01;/* #408b04; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -35,6 +36,12 @@ img {
     margin: auto;
     max-width: 100%;
     width: 1200px;
+}
+
+.box-product  img{
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
 }
 
 .flex {
@@ -57,11 +64,11 @@ img {
 }
 
 button {
-    background-color: #fff;
+    background-color: #408b04;
     border-radius: 50px;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    color: hsl(257, 40%, 49%);
+    color: #fff;
     font-size: 24px;
     padding: 20px 80px;
 }
@@ -75,8 +82,8 @@ button {
 
 .social-links a {
     border-radius: 50%;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #408b04;
+    color: #408b04;
     display: inline-flex;
     align-items: center;
     justify-content: center;
